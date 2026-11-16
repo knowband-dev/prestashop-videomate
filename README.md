@@ -20,9 +20,7 @@ Instead of relying only on product images and text descriptions, store owners ca
 
 For this module, an admin demo and a front demo are available on the Knowband Product Page.
 
-Free Product Page: <https://www.knowband.com/prestashop-free-video-manager>
-
-Paid Product Page: <https://www.knowband.com/prestashop-videomate-module>
+Product Page: <https://www.knowband.com/prestashop-free-video-manager>
 
 Admin Demo: <https://psm2.knowband.com/8/videomate/admin1>
 
