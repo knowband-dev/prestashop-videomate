@@ -1,0 +1,75 @@
+/* [2024] PrestaShop
+ * Free-tier build: banner, upgrade modal, locked-field styling.
+ * Loaded on every admin page this module renders (General Setting, Video Library,
+ * AI Video Library, Video Widget).
+ */
+
+.kbvm-free-banner {
+    background: #fff4e5;
+    border: 1px solid #f5c16c;
+    color: #8a5a00;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    font-size: 13px;
+}
+.kbvm-free-banner a {
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.kbvm-upgrade-modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    background: rgba(0, 0, 0, .5);
+}
+.kbvm-upgrade-modal-overlay.kbvm-upgrade-modal-visible {
+    display: block;
+}
+body.kbvm-modal-open {
+    overflow: hidden;
+}
+.kbvm-upgrade-modal-box {
+    position: relative;
+    max-width: 460px;
+    margin: 10% auto;
+    background: #fff;
+    border-radius: 6px;
+    padding: 28px;
+    text-align: center;
+}
+.kbvm-upgrade-modal-box h3 {
+    margin-top: 0;
+}
+.kbvm-upgrade-modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    border: none;
+    background: none;
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+    color: #888;
+}
+.kbvm-upgrade-modal-cta {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input.kbvm-locked-field,
+textarea.kbvm-locked-field,
+select.kbvm-locked-field {
+    background-color: #f5f5f5 !important;
+    cursor: not-allowed;
+}
+
+.kbvm-premium-note {
+    color: #8a5a00;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 4px;
+    display: block;
+}

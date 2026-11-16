@@ -1,0 +1,71 @@
+/*
+* Cron URL section styles for VideoMate admin configure page.
+* Improves visual hierarchy, URL display and button appearance.
+* @modifier Himanshu Vishwakarma
+* @date 10-02-2026
+*/
+
+.kb-cron-section .panel-body {
+    padding: 24px 20px;
+}
+
+.kb-cron-url-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    padding: 14px 18px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+}
+
+.kb-cron-url {
+    flex: 1;
+    min-width: 200px;
+    font-family: "Consolas", "Monaco", "Courier New", monospace;
+    font-size: 14px;
+    color: #2c3e50;
+    word-break: break-all;
+    padding: 4px 0;
+}
+
+.kb-cron-copy-btn {
+    flex-shrink: 0;
+    padding: 6px 14px;
+    font-size: 13px;
+    border-radius: 6px;
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.kb-cron-copy-btn:hover {
+    background: #5a6268;
+    color: #fff;
+}
+
+.kb-cron-copy-btn.copied {
+    background: #28a745;
+}
+
+.kb-cron-help {
+    margin-bottom: 18px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+.kb-cron-actions {
+    margin-top: 4px;
+}
+
+.kb-cron-actions .btn {
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+}

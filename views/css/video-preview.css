@@ -1,0 +1,102 @@
+/*
+ * [2024] PrestaShop
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ *
+ * @author    knowband.com <support@knowband.com>
+ * @copyright 2024 Knowband
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @category  PrestaShop Module
+ */
+
+/* Video Preview Modal Styles for kbvideomate */
+#video-preview-modal .modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+#video-preview-modal .modal-content {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#video-preview-modal .modal-header {
+    border-bottom: 1px solid #eee;
+    padding: 15px 20px;
+}
+
+#video-preview-modal .modal-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+#video-preview-modal .modal-body {
+    padding: 20px;
+}
+
+#video-preview-modal .video-container {
+    position: relative;
+    width: 100%;
+    background: #000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#video-preview-modal video {
+    width: 100%;
+    height: 538px;
+    display: block;
+}
+
+/* Preview Button Styles */
+.video-preview-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.video-preview-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.video-preview-btn i {
+    margin-right: 5px;
+}
+
+.fancybox-inner {
+    height: auto !important;
+}
+
+#kbvideomate-error-modal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#kbvideomate-error-modal .modal-header .close {
+    float: none;
+    margin: -1px -1px 0 0;
+    order: 2;
+}
+
+#video-preview-modal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#video-preview-modal .modal-header .close {
+    float: none;
+    margin: -1px -1px 0 0;
+    order: 2;
+} 

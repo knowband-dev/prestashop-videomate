@@ -1,0 +1,85 @@
+/*
+ * KB VideoMate Admin Form Validation Styles
+ *
+ * This file contains styles for form validation error messages and fields
+ *
+ * @author    knowband.com <support@knowband.com>
+ * @copyright 2024 Knowband
+ */
+
+/* Error field styling */
+.kb_error_field {
+    border-color: #f13340 !important;
+}
+
+/* Error message styling */
+.kb_error_message {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #f13340;
+}
+
+/* Select2 error styling */
+.select2-container--default .select2-selection--single.kb_error_field,
+.select2-container--default .select2-selection--multiple.kb_error_field {
+    border-color: #f13340 !important;
+}
+
+/* Radio button group error styling */
+.form-group.kb_error_field .radio-inline {
+    color: #f13340;
+}
+
+/* Input group error styling */
+.input-group.kb_error_field .form-control {
+    border-color: #f13340 !important;
+}
+
+/* Error message positioning for select2 */
+.select2-container + .kb_error_message {
+    margin-top: 5px;
+}
+
+/* Error message positioning for radio groups */
+.radio-inline + .kb_error_message {
+    margin-top: 5px;
+}
+
+/* --- Custom styles for wider select fields and attractive tags in admin form --- */
+.kb-entity-select.select2, .kb_kbvideomate_library.select2 {
+    min-width: 350px !important;
+    width: 100% !important;
+    max-width: 600px !important;
+}
+.select2-container .select2-selection--multi {
+    min-height: 40px;
+    border-radius: 8px;
+    border: 1px solid #b5b5b5;
+    background: #f8f9fa;
+    padding: 4px 8px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #ff7a1a;
+    border: none;
+    color: #fff;
+    border-radius: 16px;
+    padding: 4px 14px;
+    margin: 3px 6px 3px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+    margin-right: 6px;
+    font-size: 1.1em;
+    opacity: 0.8;
+    transition: color 0.2s;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+    color: #333;
+    background: #fff;
+    border-radius: 50%;
+} 
